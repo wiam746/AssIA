@@ -1,0 +1,70 @@
+{
+  "realm": "AssIA",
+  "enabled": true,
+  "sslRequired": "none",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "verifyEmail": false,
+  "resetPasswordAllowed": false,
+  "editUsernameAllowed": false,
+  "bruteForceProtected": true,
+
+  "attributes": {
+    "userProfileEnabled": "false"
+  },
+
+  "clients": [
+    {
+      "clientId": "assistant",
+      "name": "Assistant Reunions - App",
+      "enabled": true,
+      "publicClient": false,
+      "clientAuthenticatorType": "client-secret",
+      "secret": "9Nmy5pMrssYtta3zvLui5eqIbAaQqY30",
+      "protocol": "openid-connect",
+      "standardFlowEnabled": false,
+      "directAccessGrantsEnabled": true,
+      "serviceAccountsEnabled": false,
+      "authorizationServicesEnabled": false,
+      "redirectUris": ["*"],
+      "webOrigins": ["*"],
+      "fullScopeAllowed": true
+    }
+  ],
+
+  "users": [
+    {
+      "username": "test1",
+      "email": "test1@test.com",
+      "firstName": "Test",
+      "lastName": "Utilisateur",
+      "enabled": true,
+      "emailVerified": true,
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "test1234",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "laila",
+      "email": "laila267@gmail.com",
+      "firstName": "Laila",
+      "lastName": "Utilisateur",
+      "enabled": true,
+      "emailVerified": true,
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "laila123",
+          "temporary": false
+        }
+      ]
+    }
+  ]
+}
