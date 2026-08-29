@@ -260,12 +260,3 @@ assistant-reunions/
 | [Installation](./docs/installation.md) | Guide pas-à-pas de déploiement |
 | [Keycloak](./keycloak/README.md) | Guide de configuration Keycloak OIDC |
 
----
-
-## 📄 Licence
-
-Distribué sous la licence MIT.
-
-<div align="center">
-<b>AssIA</b> — Assistant IA 100% Local & Souverain.
-</div>
