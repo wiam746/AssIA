@@ -7,7 +7,6 @@
 ![React](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=flat-square&logo=ollama)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 **Plateforme IA interne propulsée par un pipeline RAG 100% local (Ollama + ChromaDB) pour synthétiser les réunions, diagnostiquer les incidents et piloter les projets d'équipe.**
 
